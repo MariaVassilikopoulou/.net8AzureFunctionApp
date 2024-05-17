@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "appInsights1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/microsoft.insights/components/dokihfunction8",
+      "type": "appInsights.azure",
+      "connectionId": "APPLICATIONINSIGHTS_CONNECTION_STRING"
+    },
+    "storage1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Storage/storageAccounts/demofunctionedwrgb4ae",
+      "type": "storage.azure",
+      "connectionId": "AzureWebJobsStorage"
+    },
+    "mssql1": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Web/sites/dokihfunction8/providers/Microsoft.ServiceLinker/linkers/ConnectionStringsSqlConnectionString_DA750A5F54",
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/edwdokimh8/databases/databasedokimh8",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:SqlConnectionString",
+      "dynamicId": null
+    }
+  }
+}
